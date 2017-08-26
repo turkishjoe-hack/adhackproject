@@ -47,6 +47,14 @@ class Item
 
     /**
      * TODO:Add your description
+     *
+     * @ORM\ManyToOne(targetEntity="Category")
+     * @ORM\JoinColumn(name="categoryId", referencedColumnName="id", nullable=true)
+     */
+    private $category;
+
+    /**
+     * TODO:Add your description
      * @ORM\Column(type="datetime")
      *
      */
