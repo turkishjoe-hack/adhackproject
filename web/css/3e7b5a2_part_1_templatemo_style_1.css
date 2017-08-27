@@ -28,7 +28,7 @@ img { margin: 0px; padding: 0px; border: none; }
 }
 
 .divider {
-	background: url(../Resources/public/images/divider.jpg) repeat-x bottom;
+	background: url(../../Resources/public/images/divider.jpg) repeat-x bottom;
 }
 
 .cleaner { clear: both; width: 100%; height: 0px; font-size: 0px;  }
@@ -51,11 +51,11 @@ img { margin: 0px; padding: 0px; border: none; }
 	font-weight: bold;
 	text-decoration: none;
 	text-align: center;
-	background: url(../Resources/public/images/templatemo_button.png) no-repeat;
+	background: url(../../Resources/public/images/templatemo_button.png) no-repeat;
 }
 
 .button_01 a:hover {
-	background: url(../Resources/public/images/templatemo_button_hover.png) no-repeat;
+	background: url(../../Resources/public/images/templatemo_button_hover.png) no-repeat;
 }
 
 /* header */
@@ -63,14 +63,14 @@ img { margin: 0px; padding: 0px; border: none; }
 #templatemo_header_wrapper {
 	width: 100%;
 	height: 80px;
-	background: url(../Resources/public/images/templatemo_body.jpg) repeat-x;
+	background: url(../../Resources/public/images/templatemo_body.jpg) repeat-x;
 }
 
 #templatemo_header {
 	width: 980px;
 	height: 80px;
 	margin: 0 auto;
-	background: url(../Resources/public/images/templatemo_header.jpg) no-repeat;
+	background: url(../../Resources/public/images/templatemo_header.jpg) no-repeat;
 }
 
 #templatemo_header  #site_title {
@@ -137,7 +137,7 @@ img { margin: 0px; padding: 0px; border: none; }
 	clear: both;
 	width: 100%;
 	height: 260px;
-	background: url(../Resources/public/images/templatemo_banner_repeat.jpg) repeat-x;
+	background: url(../../Resources/public/images/templatemo_banner_repeat.jpg) repeat-x;
 }
 
 #templatemo_banner {
@@ -145,7 +145,7 @@ img { margin: 0px; padding: 0px; border: none; }
 	height: 180px;
 	padding: 40px;
 	margin: 0 auto;
-	background: url(../Resources/public/images/templatemo_banner.jpg) no-repeat;
+	background: url(../../Resources/public/images/templatemo_banner.jpg) no-repeat;
 }
 
 #templatemo_banner h2 {
@@ -175,14 +175,14 @@ img { margin: 0px; padding: 0px; border: none; }
 #templatemo_menu_wrapper {
 	width: 100%;
 	height: 110px;
-	background: url(../Resources/public/images/templatemo_menu.jpg) repeat-x;
+	background: url(../../Resources/public/images/templatemo_menu.jpg) repeat-x;
 }
 
 #templatemo_menu {
 	width: 980px;
 	height: 110px;
 	margin: 0 auto;
-	background: url(../Resources/public/images/templatemo_menu.jpg) repeat-x;
+	background: url(../../Resources/public/images/templatemo_menu.jpg) repeat-x;
 }
 
 #templatemo_menu ul {
@@ -210,54 +210,54 @@ img { margin: 0px; padding: 0px; border: none; }
 	color: #163142;	
 	font-weight: bold;
 	outline: none;
-	background: url(../Resources/public/images/templatemo_menu_item.jpg) no-repeat;
+	background: url(../../Resources/public/images/templatemo_menu_item.jpg) no-repeat;
 }
 
 #templatemo_menu li a:hover, #templatemo_menu li .current {
 	color: #000000;	
-	background: url(../Resources/public/images/templatemo_menu_hover.jpg) no-repeat;
+	background: url(../../Resources/public/images/templatemo_menu_hover.jpg) no-repeat;
 }
 
 #templatemo_menu ul li a .home {
 	display: block;
 	height: 20px;
 	padding: 55px 0 0 0;
-	background: url(../Resources/public/images/home_48.png) no-repeat center top;
+	background: url(../../Resources/public/images/home_48.png) no-repeat center top;
 }
 
 #templatemo_menu ul li a .aboutus {
 	display: block;
 	height: 20px;
 	padding: 55px 0 0 0;
-	background: url(../Resources/public/images/questionmark_48.png) no-repeat center top;
+	background: url(../../Resources/public/images/questionmark_48.png) no-repeat center top;
 }
 
 #templatemo_menu ul li a .services {
 	display: block;
 	height: 20px;
 	padding: 55px 0 0 0;
-	background: url(../Resources/public/images/star_48.png) no-repeat center top;
+	background: url(../../Resources/public/images/star_48.png) no-repeat center top;
 }
 
 #templatemo_menu ul li a .news {
 	display: block;
 	height: 20px;
 	padding: 55px 0 0 0;
-	background: url(../Resources/public/images/newspaper_48.png) no-repeat center top;
+	background: url(../../Resources/public/images/newspaper_48.png) no-repeat center top;
 }
 
 #templatemo_menu ul li a .gallery {
 	display: block;
 	height: 20px;
 	padding: 55px 0 0 0;
-	background: url(../Resources/public/images/computer_48.png) no-repeat center top;
+	background: url(../../Resources/public/images/computer_48.png) no-repeat center top;
 }
 
 #templatemo_menu ul li a .contact {
 	display: block;
 	height: 20px;
 	padding: 55px 0 0 0;
-	background: url(../Resources/public/images/mail_48.png) no-repeat center top;
+	background: url(../../Resources/public/images/mail_48.png) no-repeat center top;
 }
 
 /* end of menu */
@@ -273,7 +273,7 @@ img { margin: 0px; padding: 0px; border: none; }
 	width: 900px;
 	padding: 40px;
 	margin: 0 auto;
-	background: url(../Resources/public/images/templatemo_content_top.jpg) top center no-repeat;
+	background: url(../../Resources/public/images/templatemo_content_top.jpg) top center no-repeat;
 }
 
 .content_section {
@@ -398,7 +398,7 @@ img { margin: 0px; padding: 0px; border: none; }
 	width: 100%;
 	margin: 0 auto;
 	padding: 30px 0;
-	background: url(../Resources/public/images/templatemo_footer.jpg) repeat;
+	background: url(../../Resources/public/images/templatemo_footer.jpg) repeat;
 }
 
 #templatemo_footer {
