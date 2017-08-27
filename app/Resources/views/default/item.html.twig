@@ -1,0 +1,22 @@
+
+    {% if i % 2 == 0 %}
+    <div class="content_section">
+        <h1></h1>
+        <div class="service_box float_l">
+            {% include 'default/news.html.twig' %}
+        </div>
+
+        {% if items|length == i - 1 %}
+            <div class="service_box float_r">
+
+            <div class="cleaner"></div>
+            </div>
+            </div>
+        {% endif %}
+    {% else %}
+         <div class="service_box float_r">
+            {% include 'default/news.html.twig' %}
+         </div>
+        <div class="cleaner"></div>
+        </div>
+    {% endif %}

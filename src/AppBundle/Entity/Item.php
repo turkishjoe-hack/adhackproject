@@ -54,6 +54,13 @@ class Item
     private $category;
 
     /**
+     * @ORM\Column(type="string", length=127)
+     *
+     * @var string
+     */
+    private $picture;
+
+    /**
      * TODO:Add your description
      * @ORM\Column(type="datetime")
      *
@@ -139,6 +146,42 @@ class Item
     {
         return $this->id;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getCategory()
+    {
+        return $this->category;
+    }
+
+    /**
+     * @param mixed $category
+     */
+    public function setCategory($category)
+    {
+        $this->category = $category;
+        return $this;
+    }
+
+    /**
+     * @return string
+     */
+    public function getPicture()
+    {
+        return $this->picture;
+    }
+
+    /**
+     * @param string $picture
+     */
+    public function setPicture($picture)
+    {
+        $this->picture = $picture;
+
+        return $this;
+    }
+
 
 
 
