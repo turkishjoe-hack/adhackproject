@@ -1,32 +1,8 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    <div id="templatemo_banner_wrapper">
-
-        <div id="templatemo_banner">
-
-            <h2>FREE CSS TEMPLATES<span>In turpis nunc, consectetur ut porta id, semper vitae justo. Nulla facilisi. Curabitur et eros sapien, ut feugiat lectus</span></h2>
-            <p>Praesent malesuada, risus vel posuere laoreet, lacus lorem imperdiet tortor, id semper nunc orci ac turpis. Donec fermentum ullamcorper justo a vehicula. Curabitur rhoncus lobortis mauris, vitae varius nisl scelerisque ut. Praesent luctus magna quis risus dapibus rutrum.</p>
-
-        </div> <!-- end of templatemo_banner -->
-
-    </div> <!-- end of templatemo_banner_wrapper -->
-
-    <div id="templatemo_menu_wrapper">
-
-        <div id="templatemo_menu">
-
-            <ul>
-                <li><a href="index.html" class="current"><span class="home">Home</span></a></li>
-                <li><a href="#"><span class="aboutus">About</span></a></li>
-                <li><a href="#"><span class="services">Services</span></a></li>
-                <li><a href="#"><span class="news">News</span></a></li>
-                <li><a href="#"><span class="gallery">Gallery</span></a></li>
-                <li><a href="#"><span class="contact">Contact</span></a></li>
-            </ul>
-
-        </div> <!-- end of templatemo_menu -->
-    </div> <!-- end of templatemo_menu_wrapper -->
+    {% include 'default/head.html.twig' %}
+    {% include 'default/menu.html.twig' %}
 
     <div id="templatemo_content_wrapper">
         {% set i = 0 %}
