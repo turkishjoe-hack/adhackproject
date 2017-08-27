@@ -30,12 +30,12 @@ class Category
      */
     private $parent;
 
-    /*
-    * @var \DateTime
-    *
-    * @ORM\Column(name="name", type="text")
-    */
-    private $name;
+    /**
+     * @ORM\Column(type="string", length=127)
+     *
+     * @var string
+     */
+    protected $name;
 
     /**
      * Get id

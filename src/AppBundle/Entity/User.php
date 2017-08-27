@@ -9,12 +9,12 @@ use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * @ORM\Entity()
- * @ORM\Table(name="items")
+ * @ORM\Table(name="user")
  */
-class item
+class User
 {
     /**
-     * @ORM\id
+     * @ORM\Id
      * @ORM\Column(type="integer")
      * @ORM\GeneratedValue(strategy="AUTO")
      *
@@ -34,7 +34,7 @@ class item
      *
      * @var string
      */
-    protected $description;
+    protected $email;
 
 
     /**
@@ -42,22 +42,16 @@ class item
      *
      * @var string
      */
-    protected $period;
+
+    protected $password;
 
 
     /**
-     * TODO:Add your description
+     * @ORM\Column(type="string", length=127)
      *
-     * @ORM\ManyToOne(targetEntity="Category")
-     * @ORM\JoinColumn(name="category_id", referencedColumnName="id", nullable=true)
+     * @var string
      */
-    private $category;
 
-    /**
-     * TODO:Add your description
-     * @ORM\Column(type="datetime")
-     *
-     */
     protected $createTime;
 
     /**
@@ -78,41 +72,6 @@ class item
         return $this;
     }
 
-    /**
-     * @return string
-     */
-    public function getDescription()
-    {
-        return $this->description;
-    }
-
-    /**
-     * @param string $description
-     */
-    public function setDescription($description)
-    {
-        $this->description = $description;
-
-        return $this;
-    }
-
-    /**
-     * @return string
-     */
-    public function getPeriod()
-    {
-        return $this->period;
-    }
-
-    /**
-     * @param string $period
-     */
-    public function setPeriod($period)
-    {
-        $this->period = $period;
-
-        return $this;
-    }
 
     /**
      * @return mixed
@@ -139,7 +98,7 @@ class item
     {
         return $this->id;
     }
-
-
-
 }
+
+
+
